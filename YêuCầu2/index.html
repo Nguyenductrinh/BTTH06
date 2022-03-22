@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sử dụng đối tượng array</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+    <h1 id ='d1' > Thao tác trên mảng</h1>
+
+    <form action="">
+        <table>
+            <thead>
+                <th  class="btn">
+                    <button type="button" id="createArrBtn" onclick="tao_mang()">Tạo mảng</button>
+                </th>
+                <th id="arr"></th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="4" id="arrSorted"> Giá trị mảng sau khi sử lý </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div class="container">
+                            <input type="radio" id="asc" name="sort" value="">
+                            <label for="asc">Sắp xếp tăng dần</label><br>
+                        </div>
+                        <div class="container">
+                            <input type="radio" id="desc" name="sort" value="">
+                            <label for="desc">Sắp xếp giảm dần</label><br>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div class="container">
+                            <label for="">Thêm vào vị trí</label>
+                            <input type="text" id="index" placeholder="index">
+                        </div>
+                        <div class="container">
+                            <label for="">Giá trị</label>
+                            <input type="text" id="value" placeholder="value">
+                        </div>
+                        <button type="button" id="addBtn">Thêm</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
